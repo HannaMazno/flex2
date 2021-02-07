@@ -1,0 +1,32 @@
+.page {
+  margin: 10px;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px; 
+  background: grey;
+  /* padding: 10px;  */
+  justify-content: center;
+  margin: 0 -15px; 
+}
+
+.box {
+  flex-basis: 25%;
+  box-shadow: 0 1px 3px rgb(0, 0, 0, 0.25); 
+  background:rgb(240, 245, 240);
+  padding: 0 15px; 
+  margin: 10px 0 10px 0;  
+  flex-grow: 1;
+}
+
+.box2 {
+  background: rgb(194, 11, 11);
+  flex-basis: 65%;
+}
+
+.box3 {
+  background: rgb(12, 228, 102);
+  flex-basis: 50%;
+} 
